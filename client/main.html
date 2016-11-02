@@ -1,0 +1,21 @@
+<head>
+  <title>lets intervene</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+  <header>
+    <span class="logo">INTERVENE</span>
+    {{#if currentUser}}
+      <span>Welcome User</span>
+      <a class="logout">logout</a>
+    {{else}}
+      <a class="get-in">Login</a>
+    {{/if}}
+  </header>
+</body>
+
+
+<template name="applicationLayout">
+  {{> Template.dynamic template=main }}
+</template>

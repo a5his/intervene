@@ -1,0 +1,10 @@
+<template name="intervene">
+  {{> recentThreePrayers }}
+  {{> prayersList }}
+  {{#if currentUser}}
+  	<div class="prayer-request">
+  		<a href="#">Submit Prayer Request</a>
+  	</div>
+    {{> prayerRequestForm}}
+  {{/if }}
+</template>

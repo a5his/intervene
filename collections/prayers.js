@@ -1,0 +1,1 @@
+Prayers = new Mongo.Collection('prayers');

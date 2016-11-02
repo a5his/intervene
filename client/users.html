@@ -1,0 +1,12 @@
+<template name="users">
+	<div class="user-wrapper">
+		<div class="login">
+		  <h2>Users</h2>
+		  <ul>
+		  	{{ #each userslist }}
+		      {{> user }}
+		    {{ /each }}
+		  </ul>
+		</div>
+	 </div>
+</template>

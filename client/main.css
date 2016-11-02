@@ -1,0 +1,51 @@
+/* CSS declarations go here */
+body{
+	margin:0;
+}
+
+header{
+	background: #51c104;
+  line-height: 37px;
+  height:35px;
+  position: fixed;
+  width: 100%;
+  color: #FFFFFF;
+  top:0;
+}
+
+#login-buttons{
+	float: right;
+  margin-top: 7px;
+  margin-right: 5px;
+}
+
+.logo{
+	padding: 0px 15px;
+}
+
+#login-name-link{
+	font-size: 13px;
+}
+
+.login-wrapper, .signup-wrapper{
+	position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(6, 6, 6, 0.53);
+}
+.login, .signup{
+	width: 275px;
+  margin: 0 auto;
+  background: #FFF;
+  padding: 25px;
+  margin-top: 10%;
+}
+.prayerlist li img{
+	width: 100%;
+}
+.prayerlist{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
